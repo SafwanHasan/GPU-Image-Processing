@@ -1,0 +1,21 @@
+﻿  Compiling CUDA source file kernel.cu...
+  Compiling CUDA source file src\cuda_sobel.cu...
+  
+  D:\personal\gpu\cuda_edge_detection\cuda_edge_detection>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\personal\gpu\cuda_edge_detection\cuda_edge_detection\x64\Debug\cuda_sobel.cu.obj "D:\personal\gpu\cuda_edge_detection\cuda_edge_detection\src\cuda_sobel.cu" 
+  
+  D:\personal\gpu\cuda_edge_detection\cuda_edge_detection>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\personal\gpu\cuda_edge_detection\cuda_edge_detection\x64\Debug\kernel.cu.obj "D:\personal\gpu\cuda_edge_detection\cuda_edge_detection\kernel.cu" 
+CUDACOMPILE : nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+  tmpxft_0000392c_00000000-7_kernel.cudafe1.cpp
+CUDACOMPILE : nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  cuda_sobel.cu
+  tmpxft_00004ff8_00000000-7_cuda_sobel.cudafe1.cpp
+  bench.cpp
+  cpu_sobel.cpp
+  main.cpp
+  utils_impl.cpp
+D:\personal\gpu\cuda_edge_detection\cuda_edge_detection\src\stb_image_write.h(776,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+     Creating library D:\personal\gpu\cuda_edge_detection\x64\Debug\cuda_edge_detection.lib and object D:\personal\gpu\cuda_edge_detection\x64\Debug\cuda_edge_detection.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  cuda_edge_detection.vcxproj -> D:\personal\gpu\cuda_edge_detection\x64\Debug\cuda_edge_detection.exe
