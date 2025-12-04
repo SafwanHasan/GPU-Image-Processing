@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="src\cuda_sobel.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cpu_sobel.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="benchmarks\bench.cpp" />
+    <ClCompile Include="src\utils_impl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\utils.h" />
+    <ClInclude Include="src\stb_image.h" />
+    <ClInclude Include="src\stb_image_write.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="benchmarks\bench.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\2.1.01.png" />
+    <Image Include="images\2.1.02.png" />
+    <Image Include="images\2.1.03.png" />
+    <Image Include="images\2.1.04.png" />
+    <Image Include="images\2.1.05.png" />
+    <Image Include="images\2.1.06.png" />
+    <Image Include="images\2.1.07.png" />
+    <Image Include="images\2.1.08.png" />
+    <Image Include="images\2.1.09.png" />
+    <Image Include="images\2.1.10.png" />
+    <Image Include="images\2.1.11.png" />
+    <Image Include="images\2.1.12.png" />
+    <Image Include="images\2.2.01.png" />
+    <Image Include="images\2.2.02.png" />
+    <Image Include="images\2.2.03.png" />
+    <Image Include="images\2.2.04.png" />
+    <Image Include="images\2.2.05.png" />
+    <Image Include="images\2.2.06.png" />
+    <Image Include="images\2.2.07.png" />
+    <Image Include="images\2.2.08.png" />
+    <Image Include="images\2.2.09.png" />
+    <Image Include="images\2.2.10.png" />
+    <Image Include="images\2.2.11.png" />
+    <Image Include="images\2.2.12.png" />
+    <Image Include="images\2.2.13.png" />
+    <Image Include="images\2.2.14.png" />
+    <Image Include="images\2.2.15.png" />
+    <Image Include="images\2.2.16.png" />
+    <Image Include="images\2.2.17.png" />
+    <Image Include="images\2.2.18.png" />
+    <Image Include="images\2.2.19.png" />
+    <Image Include="images\2.2.20.png" />
+    <Image Include="images\2.2.21.png" />
+    <Image Include="images\2.2.22.png" />
+    <Image Include="images\2.2.23.png" />
+    <Image Include="images\2.2.24.png" />
+    <Image Include="images\3.2.25.png" />
+    <Image Include="images\wash-ir.png" />
+  </ItemGroup>
+</Project>
