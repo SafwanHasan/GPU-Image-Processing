@@ -17,16 +17,16 @@ This project implements a **CUDA-accelerated Sobel edge detection pipeline** for
    - C++17 standard enabled in project settings  
 
 2. **Folder structure**:
-cuda_edge_detection/
-├─ src/
-│ ├─ main.cpp
-│ ├─ kernel.cu
-│ ├─ utils.h
-│ ├─ utils_impl.cpp
-│ ├─ stb_image.h
-│ └─ stb_image_write.h
-├─ images/ ← Input images (PNG)
-└─ outputs/ ← Processed CPU and GPU edge maps
+cuda_edge_detection/\
+├─ src/\
+│ ├─ main.cpp\
+│ ├─ kernel.cu\
+│ ├─ utils.h\
+│ ├─ utils_impl.cpp\
+│ ├─ stb_image.h\
+│ └─ stb_image_write.h\
+├─ images/ ← Input images (PNG)\
+└─ outputs/ ← Processed CPU and GPU edge maps\
 
 
 3. **Build & Run**:
