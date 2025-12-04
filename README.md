@@ -26,7 +26,7 @@ cuda_edge_detection/\
 │ ├─ stb_image.h\
 │ └─ stb_image_write.h\
 ├─ images/ ← Input images (PNG)\
-└─ outputs/ ← Processed CPU and GPU edge maps\
+└─ outputs/ ← Processed CPU and GPU edge maps
 
 
 3. **Build & Run**:
